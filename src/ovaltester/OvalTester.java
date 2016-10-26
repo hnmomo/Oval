@@ -17,9 +17,9 @@ public class OvalTester {
      */
     public static void main(String[] args) {
         Oval o=new Oval(3,2);
-        System.out.println(o.getLength());
+        System.out.println("the length is "+o.getLength());
         o.setWidth(3.4);
-        System.out.println(o.getWidth());
-        System.out.println(o.area());
+        System.out.println("the width is "+o.getWidth());
+        System.out.println("the area is "+o.area());
     }
 }
